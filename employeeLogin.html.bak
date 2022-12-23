@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <title>Employee Login or Signup</title>
+	  <link rel="stylesheet" href="EmployeeRegistrationForm.css"/>
+   </head>
+   <body>
+   <div>			
+			<h3  id = "heading">Employee Login or Signup</h3>
+			
+			<div>
+			<form action="register.jsp">
+				<h2>  Login </h2>
+					<label>Username</label> <span>*</span> <br>
+					<input type="text" id="una" name="una" required/>
+					<bR>
+					<label>enter password</label><span>*</span><br>
+					<input type="password" id="pw" name="pw"/>
+					<br>
+				<p align="center">
+					<button href="Employee Registration Form.html" >Submit</button>
+				</p>
+				
+			</div>
+			</form>
+		</div>
+ </body>
+</html>

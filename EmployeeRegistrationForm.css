@@ -1,0 +1,28 @@
+div{
+	width:40%;
+	height: 50%;
+	background:#ccffcc; 
+	margin:auto;
+    border-radius:15px;
+	box-shadow:2px 2px 10px blue;
+	padding:30px;
+}
+span{
+	color:red;
+	font-size:20px;
+}
+#heading{
+	color: red;
+    font-size:23px;
+	text-align : center;
+}
+h2{
+	color: aaaaaa;
+    font-size:23px;
+    text-align : center;
+}
+
+lable{
+	
+}
+

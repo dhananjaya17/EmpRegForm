@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <title>Employee Registration form</title>
+      <link rel="stylesheet" href="EmployeeRegistrationForm.css"/>
+   </head>
+   <body>
+		<div>			
+			<h3 id = "heading">Employee Enrollment Form</h3>
+			<form action="register.jsp">
+				<label>Firstname</label> <span>*</span> <br>
+				<input type="text" id="fna" name="fna" required/>
+				<bR>
+				<label>Lastname</label> <span>*</span> <br>
+				<input type="text" id="lna" name="lna" required/>
+				<bR>
+				<label>Email Id</label> <span>*</span> <bR>
+				<input type="text" id="emid" name="emid" required/>
+				<bR>
+				<label>Another Email Id </label> <span>*</span> <bR>
+				<input type="text" id="emid1" name="emid1" required/>
+				<bR>
+				<label>Contact number</label> <span>*</span> <br>
+				<input type="text" id="ph" name="ph" required maxlength="10"/> 
+				<bR>
+				<label>Another Contact number</label> <span>*</span> <br>
+				<input type="text" id="ph1" name="ph1" required maxlength="10"/> 
+				<bR>
+				<label> Position or Role Type</label>  <span>*</span> <br>
+				<input type="text" id="position" name="position" required/>
+				<bR>
+				<label> Salary Exp. </label> <span>*</span> <bR>
+				<input type="number" id="Sal" name="Sal" min="30000" max="100000"/>
+				<br>
+				<p align="center">
+					<button>Submit</button>
+				</p>
+			</form>
+		</div>
+ </body>
+</html>
